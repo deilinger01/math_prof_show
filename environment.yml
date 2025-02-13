@@ -1,0 +1,6 @@
+# create environment with: conda env create -f environment.yml
+# delete environment with: conda remove --name eth-pfe-project --all
+name: eth-pfe-project
+dependencies:
+  - python=3.8
+  - conda-forge::manim
